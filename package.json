@@ -1,0 +1,12 @@
+{
+  "name": "aigis",
+  "version": "0.0.0",
+  "description": "aigis",
+  "main": "app.js",
+  "author": {
+    "name": "aigis"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
